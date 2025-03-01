@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
     <ModulePrefs title="Sakura PKFR" thumbnail="https://example.com/thumbnail.png">
-        <!-- Add metadata if needed -->
     </ModulePrefs>
 
     <Content type="html">
         <![CDATA[
             <html>
                 <head>
-                    <script src="//www.google.com/jsapi"></script>
-                    <script>
-                        window.parent.maeExportApis_();
-                    </script>
+                    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap" rel="stylesheet"/>
 
                     <style>
                         body {
@@ -38,36 +34,6 @@
                             cursor: pointer;
                             font-family: 'Press Start 2P', cursive;
                             box-shadow: 0px 0px 10px 2px #000000;
-                        }
-                    </style>
-
-                    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap" rel="stylesheet">
-
-                    <style type="text/css">
-                        #button {
-                            display: none;
-                        }
-
-                        .imgb_vis {
-                            animation: imgb-animation 7s linear;
-                        }
-
-                        @keyframes imgb-animation {
-                            10% {
-                                transform: translateX(0);
-                            }
-
-                            20% {
-                                transform: translateX(100px);
-                            }
-
-                            90% {
-                                transform: translateX(100px);
-                            }
-
-                            100% {
-                                transform: translateX(0);
-                            }
                         }
                     </style>
                 </head>
@@ -106,3 +72,4 @@
         ]]>
     </Content>
 </Module>
+
